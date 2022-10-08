@@ -1,7 +1,7 @@
 #include <type_traits>
 #include <iostream>
 
-#include <CDS/Utility/TypeList.h>
+#include <CDS/Utility/TypeList.hpp>
 
 void test_type_list()
 {
