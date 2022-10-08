@@ -1,9 +1,10 @@
 #include <test.h>
-#include <iostream>
 
 int main(int argc, char *argv[])
 {
     std::cout << "CDS" << std::endl;
+
+    test_type_list();
 
     return 0;
 }

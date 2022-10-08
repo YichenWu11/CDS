@@ -6,7 +6,7 @@ project(Test)
 add_executable(${PROJECT_NAME} test.cpp)
 
 target_link_libraries(${PROJECT_NAME}
-    CDS
+    Chen::CDS
 )
 
 target_include_directories(${PROJECT_NAME}
